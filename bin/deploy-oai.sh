@@ -71,6 +71,7 @@ function setup_ran_node {
         libforms-bin \
         libuhd-dev \
         numactl \
+        uhd-host \
         zlib1g \
         zlib1g-dev
     sudo uhd_images_downloader
