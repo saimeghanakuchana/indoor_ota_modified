@@ -63,7 +63,7 @@ function setup_ran_node {
     # using `build-oai -I --install-optional-packages` results in interactive
     # prompts, so...
     echo installing supporting packages...
-    sudo add-apt-repository -y ppa:ettusresearch/uhd
+    #sudo add-apt-repository -y ppa:ettusresearch/uhd
     sudo apt update && sudo apt install -y \
         iperf3 \
         libboost-dev \
@@ -71,7 +71,6 @@ function setup_ran_node {
         libforms-bin \
         libuhd-dev \
         numactl \
-        uhd-host \
         zlib1g \
         zlib1g-dev
     sudo uhd_images_downloader
